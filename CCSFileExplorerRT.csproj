@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{8538D1A3-36F3-489A-B48E-99B6091D8C11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CCSFileExplorerRT</RootNamespace>
+    <AssemblyName>CCSFileExplorerRT</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>CCSFileExplorerRT.ico</ApplicationIcon>
+    <StartupObject>CCSFileExplorerWV.Program</StartupObject>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Be.Windows.Forms.HexBox">
+      <HintPath>..\..\CCS File Explorer\Be.Windows.Forms.HexBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="OpenTK">
+      <HintPath>..\..\CCS File Explorer\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplePaletteQuantizer">
+      <HintPath>..\..\CCS File Explorer\SimplePaletteQuantizer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CCSFileExplorerWV\BINHelper.cs" />
+    <Compile Include="CCSFileExplorerWV\Block.cs" />
+    <Compile Include="CCSFileExplorerWV\Block0001.cs" />
+    <Compile Include="CCSFileExplorerWV\Block0002.cs" />
+    <Compile Include="CCSFileExplorerWV\Block0005.cs" />
+    <Compile Include="CCSFileExplorerWV\Block0300.cs" />
+    <Compile Include="CCSFileExplorerWV\Block0400.cs" />
+    <Compile Include="CCSFileExplorerWV\Block0800.cs" />
+    <Compile Include="CCSFileExplorerWV\BlockDefault.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSFile.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0001.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0002.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0005.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0100.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0102.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0108.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0200.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0300.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0400.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0500.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0502.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0600.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0601.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0603.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0609.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0700.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0800.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0900.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0A00.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0B00.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0C00.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block0E00.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block1100.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block1200.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block1300.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block1400.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block1900.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block1901.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Block2000.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\BlockFF01.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\Color.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\ErrorBlock.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Blocks\StreamHelper.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Tristrip.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Vector2f.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\Vector3f.cs" />
+    <Compile Include="CCSFileExplorerWV\CCSF\VertexConnection.cs" />
+    <Compile Include="CCSFileExplorerWV\ColorDef.cs" />
+    <Compile Include="CCSFileExplorerWV\FileEntry.cs" />
+    <Compile Include="CCSFileExplorerWV\FileHelper.cs" />
+    <Compile Include="CCSFileExplorerWV\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCSFileExplorerWV\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCSFileExplorerWV\ImageImporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCSFileExplorerWV\ImageImporter.Designer.cs">
+      <DependentUpon>ImageImporter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCSFileExplorerWV\Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCSFileExplorerWV\Language.Designer.cs">
+      <DependentUpon>Language.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCSFileExplorerWV\ObjectEntry.cs" />
+    <Compile Include="CCSFileExplorerWV\Program.cs" />
+    <Compile Include="CCSFileExplorerWV\SceneHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CCSFileExplorerWV\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCSFileExplorerWV\ImageImporter.resources" />
+    <EmbeddedResource Include="CCSFileExplorerWV\Language.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

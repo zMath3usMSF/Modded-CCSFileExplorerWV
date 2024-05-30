@@ -1,0 +1,28 @@
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.csproj.AssemblyReference.cache
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.csproj.CoreCompileInputs.cache
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\CCSFileExplorerRT.exe.config
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\CCSFileExplorerRT.exe
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\CCSFileExplorerRT.pdb
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\Be.Windows.Forms.HexBox.dll
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\OpenTK.dll
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\SimplePaletteQuantizer.dll
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\OpenTK.xml
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\bin\Debug\OpenTK.dll.config
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileE.03146157.Up2Date
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.exe
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.pdb
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.Properties.Resources.resources
+C:\Users\User255\Desktop\r\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.csproj.GenerateResource.cache
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.csproj.AssemblyReference.cache
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerWV.Form1.resources
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.Properties.Resources.resources
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.csproj.GenerateResource.cache
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.csproj.CoreCompileInputs.cache
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.exe
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileExplorerRT.pdb
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\bin\Debug\CCSFileExplorerRT.exe.config
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\bin\Debug\CCSFileExplorerRT.exe
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\bin\Debug\CCSFileExplorerRT.pdb
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\bin\Debug\OpenTK.xml
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\bin\Debug\OpenTK.dll.config
+C:\Users\User255\source\repos\CCS File Explorer MOD\CCSFileExplorerRT\obj\x86\Debug\CCSFileE.03146157.Up2Date
